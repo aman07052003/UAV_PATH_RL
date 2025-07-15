@@ -130,4 +130,4 @@ uav_path_rl/
 
 ## Acknowledgements
 - Implemented using Python, NumPy, PyTorch, Matplotlib, and OpenAI Gym.
-- Inspired by research in UAV path optimization with communication constraints.
+- Inspired by research on UAV path optimization under communication constraints, conducted under the guidance of Dr. Anirudh Agarwal.
