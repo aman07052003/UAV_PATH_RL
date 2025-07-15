@@ -12,8 +12,8 @@ This project addresses the problem of **optimal path planning** for a UAV naviga
 - Generate synthetic user locations, obstacles, and SNR maps.
 
 ### Files Involved:
-- `env/uav_env.py`
-- `scripts/generate_data.py`
+- [`env/uav_env.py`](env/uav_env.py)
+- [`scripts/generate_data.py`](scripts/generate_data.py)
 
 ### Key Features:
 - **3D Grid**: Defined as `(20, 20, 5)` for X, Y, and Z coordinates.
@@ -32,8 +32,8 @@ This project addresses the problem of **optimal path planning** for a UAV naviga
 - Create a **custom Gym environment** compatible with reinforcement learning algorithms.
 
 ### Files Involved:
-- `env/uav_env.py`
-- `main.py`
+- [`env/uav_env.py`](env/uav_env.py)
+- [`main.py`](main.py)
 
 ### Features:
 - **Action Space**: 7 actions (e.g., move up, down, diagonal, stay).
@@ -56,11 +56,11 @@ This project addresses the problem of **optimal path planning** for a UAV naviga
 - Support Dueling DQN, Double DQN, and Prioritized Experience Replay.
 
 ### Files Involved:
-- `train/dqnn_agent.py`
-- `train/q_networks.py`
-- `train/train_dqn.py`
-- `train/prioritized_replay.py`
-- `main.py`
+- [`train/dqnn_agent.py`](train/dqnn_agent.py)
+- [`train/q_networks.py`](train/q_networks.py)
+- [`train/train_dqn.py`](train/train_dqn.py)
+- [`train/prioritized_replay.py`](train/prioritized_replay.py)
+- [`main.py`](main.py)
 
 ### Network Architecture:
 - Input: Observation state vector.
